@@ -1,0 +1,21 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondorg{    
+    background-image: url("../img/dibujo.svg");
+    background-repeat: repeat;
+    background-size: 10rem;
+}
+
+.bg-danger{
+    background-color: #D50000 !important;
+}
+
+.text-danger{
+    color: #D50000 !important;
+}
+
+.btn-danger{
+    background-color: #D50000 !important;
+}
