@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tomorrow', sans-serif;
 }
 
 .fondorg{    
@@ -8,14 +8,15 @@
     background-size: 10rem;
 }
 
-.bg-danger{
+.btn-danger, .bg-danger, .text-danger{
     background-color: #D50000 !important;
 }
 
-.text-danger{
-    color: #D50000 !important;
+.badge-bs{
+    color: white;
+    background-color: #7952b3;
 }
 
-.btn-danger{
-    background-color: #D50000 !important;
+.badge-warning{
+    color: white;
 }

@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Google Maps API -->
+  <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
   <!-- Scroll Reveal library -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- Font Awesome CDN -->
@@ -25,7 +26,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger py-3 fixed-top">
     <div class="container">
       <img src="img/dibujo.svg" alt="Logo" height="50px" class="mx-3">
-      <a class="navbar-brand" href="#">Ricardo Garces</a>
+      <a class="navbar-brand" href="#header">Ricardo Garces</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +41,7 @@
             <a class="nav-link" href="#testimonial">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicio">Servicios</a>
+            <a class="nav-link" href="#tech">Tecnologias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contacto</a>
@@ -58,12 +59,10 @@
           <img src="img/dibujo.svg" class="img-fluid pt-5"></img>
         </div>
         <div class="col-md-6 my-md-auto py-5">
-          <h1 class="display-2 text-white">Hola Mundo!</h1>
-          <p class="text-white">Hola, mi nombre es Ricardo Garces
-            aqui puedes encontrar informacion sobre mi y mi trabajo.
-            Me dedico al diseño y desarrollo de webs informativas para empresas y profesionales independientes.
+          <h1 class="display-md-1 display-3 text-white">Bienvenido</h1>
+            <p class="text-white">Hola, soy Ricardo Garces desarrollador de aplicaciones moviles y web. Aqui encontraras informacion sobre mis proyectos desarrollados y las tecnologias utilizadas
           </p>
-          <button class="btn btn-outline-light">
+          <button class="btn btn-outline-light btn-lg">
             Leer Mas..
           </button>
         </div>
@@ -83,11 +82,11 @@
     </div>
   </section>
 
-  <section class="container" id="servicio">
-    <h1 class="text-center">Servicios</h1>
+  <section class="container" id="tech">
+    <h1 class="text-center">Tecnologias de Desarrollo</h1>
     <div class="d-flex justify-content-center">
-      <blockquote class="blockquote text-center lead py-2 collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#servicio">
-        <p class="mb-0">Estas tecnologias son usadas con algunos complementos adicionales como bootstrap, firebase, Node.Js entre otros</p>
+      <blockquote class="blockquote text-center lead py-2">
+        <p class="mb-0">Estas tecnologias son usadas con algunos complementos adicionales como <span class="badge badge-pill badge-bs">Bootstrap</span>, <span class="badge badge-pill badge-danger">Angular Material</span> y del lado del servidor <span class="badge badge-pill badge-warning">Firebase</span>, <span class="badge badge-pill badge-success">Node.Js</span> y <span class="badge badge-pill badge-info">PHP</span>, entre otros.</p>
         <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
       </blockquote>
     </div>
@@ -98,7 +97,7 @@
           <div class="card-body d-flex justify-content-centers flex-column">
             <h4 class="card-title text-center">Angular</h4>
             <p class="card-text text-center">Framework creado por Google para el desarrollo aplicaciones web de una sola pagina.</p>
-            <a href="#collapseOne" class="btn btn-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Ver mas...</a>
+            <a href="https://angular.io/" class="btn btn-danger" target="_blank">Ver mas...</a>
           </div>
         </div>
       </div>
@@ -107,8 +106,8 @@
           <img class="card-img-top p-3" src="img/flutterio-icon.svg" alt="Card image">
           <div class="card-body d-flex justify-content-centers flex-column">
             <h4 class="card-title text-center">Flutter</h4>
-            <p class="card-text text-center">SDK de desarrollo de aplicaciones móviles creado por Google. Utilizado para desarrollar aplicaciones para Android y iOS</p>
-            <a href="#collapseTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-danger">Ver mas...</a>
+            <p class="card-text text-center">SDK para aplicaciones móviles creado por Google. Utilizado para desarrollar aplicaciones para Android y iOS</p>
+            <a href="https://es.wordpress.com/" class="btn btn-danger" target="_blank">Ver mas...</a>
           </div>
         </div>
       </div>
@@ -118,7 +117,7 @@
           <div class="card-body d-flex justify-content-centers flex-column">
             <h4 class="card-title text-center">WordPress</h4>
             <p class="card-text text-center">WordPress es un sistema de gestión de contenidos, enfocado a la creación de cualquier tipo de página web.</p>
-            <a href="#collapseThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-danger">Ver mas...</a>
+            <a href="https://flutter.dev/" class="btn btn-danger" target="_blank">Ver mas...</a>
           </div>
         </div>
       </div>
@@ -160,12 +159,18 @@
         <a href="https://www.facebook.com/RicardoGarcesJulio" target="_blank">
           <i class="fab fa-facebook-square mx-3" style="font-size: 40px;color: white"></i>
         </a>
-
-        <i class="fab fa-instagram  mx-3" style="font-size: 40px;color: white"></i>
-        <i class="fab fa-github  mx-3" style="font-size: 40px;color: white"></i>
+        <a href="http://instagram.com/RicardoGrcs" target="_blank">
+          <i class="fab fa-instagram  mx-3" style="font-size: 40px;color: white"></i>
+        </a>
+        <a href="https://github.com/RicardoGrcs" target="_blank">
+          <i class="fab fa-github  mx-3" style="font-size: 40px;color: white"></i>
+        </a>
+        <a href="http://twitter.com/RicardoGrcs" target="_blank">
+          <i class="fab fa-twitter  mx-3" style="font-size: 40px;color: white"></i>
+        </a>
       </div>
       <div>
-        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, dicta.</p>
+        <p class="text-white">Gracias por preferirnos. Ricardo Garces 2019</p>
       </div>
     </div>
 
@@ -182,7 +187,7 @@
     }
   </script>
 
-  <!-- Optional JavaScript -->
+  <!-- Mi JavaScript -->
   <script src="js/script.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdn-Te4NpFKdxenu8Ne8BX7-wzYT9OScA&callback=initMap"
     async defer></script>
